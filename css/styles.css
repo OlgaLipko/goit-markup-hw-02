@@ -1,0 +1,14 @@
+body {
+  background: #e5e5e5;
+  font-family: 'Roboto', sans-serif;
+}
+.hero {
+  background: #2f303a;
+  color: #ffffff;
+  text-align: center;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: ;
+}
