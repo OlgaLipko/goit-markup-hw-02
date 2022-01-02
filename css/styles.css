@@ -2,6 +2,16 @@ body {
   background: #ffffff;
   font-family: 'Roboto', sans-serif;
 }
+.site-nav,
+.contacts,
+.button-list,
+.images-what-are-we-doing,
+.our-peculiarities,
+.our-command,
+.works {
+  list-style-type: none;
+}
+/*index*/
 .hero {
   background: #2f303a;
   color: #ffffff;
@@ -14,18 +24,10 @@ body {
 
 .filter-button,
 .hero-button {
+  background-color: #f5f4fa;
   cursor: pointer;
 }
 
-.site-nav,
-.contacts,
-.button-list,
-.images-what-are-we-doing,
-.our-peculiarities,
-.our-command,
-.works {
-  list-style-type: none;
-}
 /*index*/
 
 .page-header {
@@ -61,6 +63,7 @@ body {
 }
 .hero-button:hover,
 .filter-button:hover {
+  color: #ffffff;
   background-color: #2196f3;
 }
 .works {
