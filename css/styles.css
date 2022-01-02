@@ -1,7 +1,24 @@
 body {
   background: #ffffff;
   font-family: 'Roboto', sans-serif;
+  text-decoration: none;
 }
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: auto;
+  letter-spacing: 3%;
+  text-decoration: none;
+}
+
+.logo-1 {
+  color: #2196f3;
+}
+.logo-2 {
+  color: #000000;
+}
+
 .site-nav,
 .contacts,
 .button-list,
