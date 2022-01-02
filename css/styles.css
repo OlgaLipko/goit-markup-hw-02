@@ -16,6 +16,16 @@ body {
 .hero-button {
   cursor: pointer;
 }
+
+.site-nav,
+.contacts,
+.button-list,
+.images-what-are-we-doing,
+.our-peculiarities,
+.our-command,
+.works {
+  list-style-type: none;
+}
 /*index*/
 
 .page-header {
@@ -48,6 +58,10 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.hero-button:hover,
+.filter-button:hover {
+  background-color: #2196f3;
 }
 .works {
   display: inline-block;
