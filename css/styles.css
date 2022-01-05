@@ -1,7 +1,8 @@
 :root {
   --primary-text-color: #000000;
   --background-color: #ffffff;
-  --change-color: ;
+  --link-color: #212121;
+  --link-color-change: #2196f3;
 }
 
 body {
@@ -28,6 +29,12 @@ body {
   color: #000000;
 }
 
+.link {
+  color: var(--link-color);
+}
+.link:hover .link:focus {
+  color: var(--link-color-change);
+}
 .site-nav,
 .contacts,
 .button-list,
