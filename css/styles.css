@@ -1,10 +1,12 @@
-:root{
-  --primary-text-color:;
-  --
+:root {
+  --primary-text-color: #000000;
+  --background-color: #ffffff;
+  --change-color: ;
 }
 
 body {
   background: #ffffff;
+  color: #000000;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
 }
@@ -13,10 +15,10 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 3%;
+  letter-spacing: 0.03;
   text-decoration: none;
 }
-button {
+.button {
   font-family: inherit;
 }
 .logo-1 {
@@ -35,6 +37,7 @@ button {
 .works {
   list-style-type: none;
 }
+
 /*index*/
 .hero {
   background: #2f303a;
