@@ -1,3 +1,8 @@
+:root{
+  --primary-text-color:;
+  --
+}
+
 body {
   background: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -46,6 +51,11 @@ button {
   background-color: #f5f4fa;
   cursor: pointer;
 }
+.hero-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+}
 
 /*index*/
 
@@ -84,8 +94,4 @@ button {
 .filter-button:hover {
   color: #ffffff;
   background-color: #2196f3;
-}
-.works {
-  display: inline-block;
-  width: 30%;
 }
