@@ -13,19 +13,33 @@ body {
   background: #ffffff;
   color: #000000;
   font-family: 'Roboto', sans-serif;
+}
+a {
   text-decoration: none;
 }
 ul {
   list-style-type: none;
 }
+
+footer {
+  background-color: var(--background-color-dark);
+}
+
+/*portfolio*/
+.button-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .button {
   font-family: inherit;
 }
-
+/*index-portfolio*/
 .hero-button,
 .filter-button {
   cursor: pointer;
 }
+/*index*/
 .hero-button {
   color: #ffffff;
   font-weight: 700;
@@ -33,7 +47,7 @@ ul {
   background-color: #2196f3;
   line-height: 1.9;
 }
-
+/*portfolio*/
 .filter-button {
   color: var(--color-text1);
   font-weight: 500;
@@ -42,17 +56,12 @@ ul {
   background-color: #f5f4fa;
 }
 
-.button-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 .hero-button:hover,
 .filter-button:hover {
   color: var(--background-color);
   background-color: var(--link-color-change);
 }
-
+/*index-portfolio*/
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -61,38 +70,48 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+/*index-portfolio*/
 .logo-1 {
   color: #2196f3;
 }
 .logo-2 {
   color: #000000;
 }
+
 .logo-3 {
   color: #ffffff;
 }
-
-.site-nav-link {
+/*index*/
+.site-nav-link a {
   color: var(--color-text1);
 }
-.site-nav-link:hover,
-.site-nav-link:focus {
+.site-nav-link a:hover,
+.site-nav-link a:focus {
   color: var(--link-color-change);
 }
-.contacts-link {
+.contacts-link a {
   color: var(--color-text2);
 }
-.contacts-link:hover,
-.contacts-focus {
+.contacts-link a:hover,
+.contacts-focus a {
   color: var(--link-color-change);
 }
-.adress-link {
+.adress-link a {
+  font-style: normal;
   color: var(--color-text-footer);
 }
-.adress-link:hover,
-.adress-link:focus {
+.adress-link a:hover,
+.adress-link a:focus {
   color: var(--link-color-change);
 }
-
+.adress {
+  color: var(--background-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2em;
+  letter-spacing: 0.03em;
+}
 /*index*/
 .hero {
   background: var(--background-color-dark);
