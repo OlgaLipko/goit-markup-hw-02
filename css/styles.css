@@ -15,14 +15,7 @@ body {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
 }
-.site-nav,
-.contacts,
-.button-list,
-.footer-list,
-.images-what-are-we-doing,
-.our-peculiarities,
-.our-command,
-.works-examples {
+ul {
   list-style-type: none;
 }
 .button {
