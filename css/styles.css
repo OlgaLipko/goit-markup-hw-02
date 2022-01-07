@@ -93,7 +93,7 @@ footer {
   color: var(--color-text2);
 }
 .contacts-link a:hover,
-.contacts-focus a {
+.contacts-link a:focus {
   color: var(--link-color-change);
 }
 .adress-link a {
