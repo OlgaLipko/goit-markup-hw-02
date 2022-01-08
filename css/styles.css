@@ -182,12 +182,18 @@ footer {
   text-align: center;
 }
 .works-examples-title {
+  color: var(--color-text1);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
+.works-examples-title:hover,
+.works-examples-title:focus {
+  color: var(--link-color-change);
+}
 
 .works-examples-text {
+  color: var(--color-text1);
   line-height: 1.88;
 }
