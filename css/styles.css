@@ -12,6 +12,9 @@ body {
   color: var(--primary-text-color);
   background: var(--background-color);
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
 }
 a {
   text-decoration: none;
@@ -42,24 +45,25 @@ footer {
   color: #ffffff;
   background-color: var(--link-color-change);
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.06em;
 }
-.hero-button:hover, .hero-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   color: var(--background-color);
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
-}
+
 /*portfolio*/
 .filter-button {
   color: var(--color-text1);
   background-color: #f5f4fa;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.63;
 }
 
-.filter-button:hover, .filter-button:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--background-color);
   background-color: var(--link-color-change);
 }
@@ -69,7 +73,6 @@ footer {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   text-decoration: none;
 }
 /*index-portfolio*/
@@ -109,10 +112,8 @@ footer {
 .adress {
   color: var(--background-color);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 2em;
-  letter-spacing: 0.03em;
 }
 /*index*/
 .hero {
@@ -155,7 +156,6 @@ footer {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .header-3 {
@@ -163,17 +163,13 @@ footer {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
 }
 .our-peculiarities-text {
   color: var(--color-text2);
-  font-weight: 400;
   font-size: 14px;
   line-height: 2;
-  letter-spacing: 0.03em;
 }
 .our-command-title {
   color: var(--color-text1);
@@ -182,10 +178,7 @@ footer {
 }
 .our-command-text {
   color: var(--color-text2);
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   text-align: center;
 }
 .works-examples-title {
@@ -196,8 +189,5 @@ footer {
 }
 
 .works-examples-text {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
 }
