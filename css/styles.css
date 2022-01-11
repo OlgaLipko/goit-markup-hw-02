@@ -1,25 +1,24 @@
 :root {
   --primary-text-color: #000000;
   --background-color: #ffffff;
-  --color-text1: #212121;
-  --color-text2: #757575;
+  --color-text: #212121;
+  --color-text-lighter: #757575;
   --color-text-footer: rgba(255, 255, 255, 0.6);
   --link-color-change: #2196f3;
   --background-color-dark: #2f303a;
   --background-color-command: #f5f4fa;
+  --background-hero-btn-change: #188ce8;
 }
 body {
   color: var(--primary-text-color);
   background: var(--background-color);
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.03em;
+  font-size: 14px;
 }
-a {
+.link {
   text-decoration: none;
 }
-ul {
+.list {
   list-style-type: none;
 }
 
@@ -42,7 +41,7 @@ footer {
 }
 /*index*/
 .hero-button {
-  color: #ffffff;
+  color: var(--background-color);
   background-color: var(--link-color-change);
   font-weight: 700;
   line-height: 1.9;
@@ -51,15 +50,16 @@ footer {
 .hero-button:hover,
 .hero-button:focus {
   color: var(--background-color);
-  background-color: #188ce8;
+  background-color: var(--background-hero-btn-change);
 }
 
 /*portfolio*/
 .filter-button {
-  color: var(--color-text1);
-  background-color: #f5f4fa;
+  color: var(--color-text);
+  background-color: var(--background-color-command);
   font-weight: 500;
   line-height: 1.63;
+  letter-spacing: 0.03em;
 }
 
 .filter-button:hover,
@@ -69,55 +69,54 @@ footer {
 }
 /*index-portfolio*/
 .logo {
+  color: var(--link-color-change);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 /*index-portfolio*/
-.logo-1 {
-  color: #2196f3;
-}
-.logo-2 {
-  color: #000000;
+
+.logo-header {
+  color: var(--primary-text-color);
 }
 
-.logo-3 {
-  color: #ffffff;
+.logo-footer {
+  color: var(--background-color);
 }
 /*index*/
-.site-nav-link a {
-  color: var(--color-text1);
+.site-nav-link .link {
+  color: var(--color-text);
 }
-.site-nav-link a:hover,
-.site-nav-link a:focus {
-  color: var(--link-color-change);
+.contacts-link .link {
+  color: var(--color-text-lighter);
 }
-.contacts-link a {
-  color: var(--color-text2);
-}
-.contacts-link a:hover,
-.contacts-link a:focus {
-  color: var(--link-color-change);
-}
-.adress-link a {
+.adress-link .link {
   font-style: normal;
   color: var(--color-text-footer);
 }
-.adress-link a:hover,
-.adress-link a:focus {
+.site-nav-link .link:hover,
+.site-nav-link .link:focus,
+.contacts-link .link:hover,
+.contacts-link .link:focus,
+.adress-link .link:hover,
+.adress-link .link:focus {
   color: var(--link-color-change);
 }
+
 .adress {
   color: var(--background-color);
+  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 2em;
+  letter-spacing: 0.03em;
 }
 /*index*/
 .hero {
-  color: #ffffff;
+  color: var(--background-color);
   background: var(--background-color-dark);
   text-align: center;
   font-weight: 900;
@@ -131,18 +130,12 @@ footer {
 .page-header {
   display: flex;
 }
-.images-what-are-we-doing,
-.our-command,
-.our-peculiarities {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+
 .our-command {
   background-color: var(--background-color-command);
 }
 
-.header-2-hidden {
+.header-hidden {
   opacity: 0;
 }
 .header-3,
@@ -151,38 +144,44 @@ footer {
 }
 
 .header-2 {
-  color: var(--color-text1);
+  color: var(--color-text);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
 .header-3 {
-  color: var(--color-text1);
+  color: var(--color-text);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
 }
 .our-peculiarities-text {
-  color: var(--color-text2);
+  color: var(--color-text-lighter);
   font-size: 14px;
   line-height: 2;
+  letter-spacing: 0.03em;
 }
 .our-command-title {
-  color: var(--color-text1);
+  color: var(--color-text);
   font-weight: 500;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 .our-command-text {
-  color: var(--color-text2);
+  color: var(--color-text-lighter);
+  font-weight: 400;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 .works-examples-title {
-  color: var(--color-text1);
+  color: var(--color-text);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -194,6 +193,8 @@ footer {
 }
 
 .works-examples-text {
-  color: var(--color-text1);
+  color: var(--color-text);
+  font-weight: 400;
   line-height: 1.88;
+  letter-spacing: 0.03em;
 }
